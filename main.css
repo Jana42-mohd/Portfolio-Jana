@@ -1,3 +1,5 @@
+
+/* 
 :root {
     --navy: #070f1f;
     --light-navy: #0c1b31;
@@ -124,7 +126,7 @@ h1, h2, h3, h4 {
    
 }
 
-/* Header & Navigation */
+
 header {
     position: fixed;
     width: 100%;
@@ -196,7 +198,7 @@ header {
     color: var(--pink);
 }
 
-/* HERO */
+
 .hero {
     min-height: 100vh;
     display: flex;
@@ -233,7 +235,7 @@ header {
     color: #A8B2D1;
 }
 
-/* ABOUT IMAGE */
+
 .about-image {
     text-align: center;
     position: relative;
@@ -272,7 +274,7 @@ header {
     transform: translate(-5px, -5px);
 }
 
-/* EXPERIENCE */
+
 .experience-grid {
     display: grid;
     gap: 2rem;
@@ -344,7 +346,7 @@ header {
     line-height: 1.6;
 }
 
-/* PROJECTS */
+
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
@@ -427,7 +429,6 @@ header {
     gap: 0.8rem;
 }
 
-/* FOOTER */
 footer {
     text-align: center;
     padding: 3rem 0;
@@ -436,7 +437,7 @@ footer {
     border-top: 1px solid var(--lightest-navy);
 }
 
-/* RESPONSIVE */
+
 @media (max-width: 992px) {
     .about-content {
         grid-template-columns: 1fr;
@@ -516,3 +517,5 @@ footer {
         padding: 2rem 1.5rem;
     }
 }
+
+*/
